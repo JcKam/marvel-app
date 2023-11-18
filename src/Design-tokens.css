@@ -1,0 +1,39 @@
+:root {
+  --spacings-0: 0;
+  --spacings-XXS: 0.25rem;
+  --spacings-XS: 0.5rem;
+  --spacings-S: 1rem;
+  --spacings-M: 1.5rem;
+  --spacings-L: 2rem;
+  --spacings-XL: 3rem;
+  --spacings-XXL: 4rem;
+  --sizes-XS-font-size: 0.85rem;
+  --sizes-XS-line-height: 1.5;
+
+  /*COLOR*/
+  --color-brand-900: #230eaa;
+  --color-brand-800: #5635e8;
+  --color-brand-700: #5635e8;
+  --color-brand-600: #5635e8;
+  --color-brand-500: #7f7aff;
+  --color-brand-400: #9497ff;
+  --color-brand-300: #a8abff;
+  --color-brand-200: #c2c4ff;
+  --color-brand-100: #d1d3ff;
+  --color-brand-50: #e2e3fd;
+  --color-brand-25: #f1f1fe;
+
+  /*NEUTRAL*/
+  --color-neutral-900: #0b1732;
+  --color-neutral-800: #2a3551;
+  --color-neutral-700: #445473;
+  --color-neutral-600: #667799;
+  --color-neutral-500: #96a6c5;
+  --color-neutral-400: #acbbd7;
+  --color-neutral-300: #becbe4;
+  --color-neutral-200: #d2dcef;
+  --color-neutral-100: #e0e7f6;
+  --color-neutral-50: #ebf0fa;
+  --color-neutral-25: #f3f6fc;
+  --color-neutral-0: #ffffff;
+}
