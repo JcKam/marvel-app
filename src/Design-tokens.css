@@ -11,17 +11,17 @@
   --sizes-XS-line-height: 1.5;
 
   /*COLOR*/
-  --color-brand-900: #230eaa;
-  --color-brand-800: #5635e8;
-  --color-brand-700: #5635e8;
-  --color-brand-600: #5635e8;
-  --color-brand-500: #7f7aff;
-  --color-brand-400: #9497ff;
-  --color-brand-300: #a8abff;
-  --color-brand-200: #c2c4ff;
-  --color-brand-100: #d1d3ff;
-  --color-brand-50: #e2e3fd;
-  --color-brand-25: #f1f1fe;
+  --color-brand-900: #aa0e0e;
+  --color-brand-800: #eb1f1f;
+  --color-brand-700: #e83535;
+  --color-brand-600: #e24b4b;
+  --color-brand-500: #ff7a7a;
+  --color-brand-400: #ff9494;
+  --color-brand-300: #ffa8a8;
+  --color-brand-200: #ffc2c2;
+  --color-brand-100: #ffd1d1;
+  --color-brand-50: #fde2e2;
+  --color-brand-25: #fef1f1;
 
   /*NEUTRAL*/
   --color-neutral-900: #0b1732;

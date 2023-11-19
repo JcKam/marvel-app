@@ -28,7 +28,7 @@ const Characters = ({ offers, setOffers }) => {
             <li key={characters._id} className="debug2 card">
               <p>{characters.name}</p>
               <img
-                className="img"
+                className="card_img"
                 src={
                   characters.thumbnail.path +
                   "." +
@@ -36,6 +36,7 @@ const Characters = ({ offers, setOffers }) => {
                 }
                 alt=""
               />
+              <button>Ajouter {characters.name} à mes favoris</button>
             </li>
           );
         })}

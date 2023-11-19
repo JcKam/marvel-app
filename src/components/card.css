@@ -1,0 +1,13 @@
+@import "../Design-tokens.css";
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.25rem;
+}
+
+.card_img {
+  /* 168x252px */
+  max-height: 20rem;
+  width: auto;
+}

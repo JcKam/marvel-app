@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 
-const Comics = ({ offers, setOffers }) => {
+const Comics = () => {
   const [data, setData] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -27,6 +27,18 @@ const Comics = ({ offers, setOffers }) => {
           return (
             <li key={comics._id} className="debug2 card">
               <p>{comics.title}</p>
+              <img
+                className="card_img"
+                src={comics.thumbnail.path + "." + comics.thumbnail.extension}
+                alt=""
+              />
+              {/* <Link
+                to={`/pokemon/:${pokemon.name}`}
+                key={pokemon.name}
+                className="card"
+              >
+                <p> {pokemon.name}</p>
+              </Link> */}
             </li>
           );
         })}

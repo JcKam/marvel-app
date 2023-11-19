@@ -1,0 +1,94 @@
+@import "../Design-tokens.css";
+
+:root {
+  --commons-button-radius-border: var(--spacings-M);
+  --commons-button-size-padding-y: var(--spacings-XS);
+  --commons-button-size-padding-x: var(--spacings-M);
+  --commons-button-onlyIcon-size-padding-x: var(--spacings-S);
+
+  /* Primary */
+  --components-button-color-background-primary: var(--color-brand-700);
+  --components-button-color-border-primary: var(--color-brand-700);
+  --components-button-color-text-primary: var(--color-neutral-0);
+  --components-button-color-background-primary-hover: var(--color-brand-500);
+  --components-button-color-border-primary-hover: var(--color-brand-700);
+  --components-button-color-text-primary-hover: var(--color-neutral-0);
+
+  /* Secondary */
+  --components-button-color-background-secondary: var(--color-neutral-0);
+  --components-button-color-border-secondary: var(--color-brand-700);
+  --components-button-color-text-secondary: var(--color-brand-700);
+  --components-button-color-background-secondary-hover: var(--color-brand-700);
+  --components-button-color-border-secondary-hover: var(--color-brand-700);
+  --components-button-color-text-secondary-hover: var(--color-neutral-0);
+}
+
+.button {
+  border-radius: var(--commons-button-radius-border);
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--sizes-standard-font-size);
+  font-weight: 600;
+  line-height: var(--sizes-standard-line-height);
+  margin-left: var(--spacings-XS);
+  margin-left: var(--spacings-XS);
+  padding: var(--commons-button-size-padding-y)
+    var(--commons-button-size-padding-x);
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button-primary {
+  background: var(--components-button-color-background-primary);
+  border-color: var(--components-button-color-border-primary);
+  color: var(--components-button-color-text-primary);
+}
+.button-primary:hover,
+.button-primary:focus {
+  background: var(--components-button-color-background-primary-hover);
+  border-color: var(--components-button-color-border-primary-hover);
+  color: var(--components-button-color-text-primary-hover);
+}
+
+.button-secondary {
+  background: var(--components-button-color-background-secondary);
+  border-color: var(--components-button-color-border-secondary);
+  color: var(--components-button-color-text-secondary);
+}
+.button-secondary:hover,
+.button-secondary:focus {
+  background: var(--components-button-color-background-secondary-hover);
+  border-color: var(--components-button-color-border-secondary-hover);
+  color: var(--components-button-color-text-secondary-hover);
+}
+
+.button-secondary:focus,
+.button-primary:focus {
+  box-shadow: var(--commons-boxShadow-focus);
+  outline: none;
+}
+
+/*SIZE*/
+
+.button-xs {
+  font-size: 75%;
+  padding: 0.25rem 0.75rem;
+}
+.button-md {
+  font-size: 100%;
+  padding: 0.5rem 1rem;
+}
+.button-lg {
+  font-size: 125%;
+  padding: 1rem 1.5rem;
+}
+
+/*STATE*/
+.button:disabled {
+  cursor: default;
+}

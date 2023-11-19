@@ -1,0 +1,44 @@
+@import "../Design-tokens.css";
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+.input {
+  width: 300px;
+  border: 1px solid #d3d3d3;
+  outline: none;
+  height: 2.5rem;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fcf9f9;
+  padding-left: 10px;
+  margin: 5px 0 0;
+  width: 100%;
+}
+.input-error {
+  border-color: red;
+}
+
+.input-help {
+  color: red;
+  font-size: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.input-label {
+  font-weight: 600;
+}
+
+.input-label small {
+  font-size: 90%;
+  font-weight: 600;
+}
+
+.input-number[type="number"]::-webkit-inner-spin-button,
+.input-number[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
